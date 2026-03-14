@@ -1,0 +1,58 @@
+* {
+    font: "JetBrainsMono Nerd Font 12";
+
+    bg: rgba(15,20,30,0.85);
+    fg: #cdd6f4;
+    accent: #5fa8ff;
+
+    border-radius: 16px;
+}
+
+configuration {
+    show-icons: true;
+}
+
+window {
+    location: center;
+    anchor: center;
+
+    width: 32%;
+    padding: 20px;
+
+    background-color: @bg;
+
+    border: 2px;
+    border-color: rgba(95,168,255,0.4);
+    border-radius: 16px;
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+}
+
+inputbar {
+    padding: 10px;
+    margin: 0 0 15px 0;
+
+    background-color: rgba(30,40,60,0.7);
+    border-radius: 12px;
+}
+
+listview {
+    spacing: 6px;
+}
+
+element {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+element selected {
+    background-color: rgba(95,168,255,0.25);
+    border: 1px;
+    border-color: @accent;
+}
+
+element-text {
+    text-color: @fg;
+}
