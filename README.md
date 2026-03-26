@@ -7,7 +7,7 @@ My Hyprland setup on CachyOS.
 - Window Manager: Hyprland
 - Bar: Waybar
 - Launcher: Rofi
-- Terminal: Kitty
+- Terminal: Kitty + Starship
 - Shell: Fish
 - Theme: Kvantum + GTK
 
@@ -17,10 +17,18 @@ My Hyprland setup on CachyOS.
 
 ## Installation
 
+Install from Package Installers Beforehand:
+
+- Starship
+- Waybar
+- Rofi
+- Fastfetch
+- Puslseaudio
+- Thunar
+
 Clone the repo:
 
 git clone https://github.com/shubhang-10/hyprland-dotfiles.git
 
-Then copy configs:
-
-cp -r config/* ~/.config/
+Then copy necessary configs in the .config directory....
+ 
