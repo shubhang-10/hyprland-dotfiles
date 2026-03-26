@@ -10,12 +10,13 @@ My Hyprland setup on CachyOS.
 - Terminal: Kitty + Starship
 - Shell: Fish
 - Theme: Kvantum + GTK
+- File Manager: Thunar
 
 ## Screenshot
 
 ![setup](screenshots/setup.png)
 
-## Installation
+## Dependencies
 
 Install from Package Installers Beforehand:
 
@@ -25,6 +26,8 @@ Install from Package Installers Beforehand:
 - Fastfetch
 - Puslseaudio
 - Thunar
+
+## Installation
 
 Clone the repo:
 
