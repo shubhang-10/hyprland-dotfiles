@@ -10,7 +10,7 @@ My Hyprland setup on CachyOS.
 - Terminal: Kitty + Starship
 - Shell: Fish
 - Theme: Kvantum + GTK
-- File Manager: Thunar
+- File Manager: Dolphin
 
 ## Screenshot
 
