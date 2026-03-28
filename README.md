@@ -25,7 +25,7 @@ Install from Package Installers Beforehand:
 - Rofi
 - Fastfetch
 - Puslseaudio
-- Thunar
+- Dolphin
 
 ## Installation
 
